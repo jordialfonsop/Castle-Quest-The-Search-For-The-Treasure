@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 1470650524849105956}
   - component: {fileID: 8881665320867292947}
   - component: {fileID: 3259908266948498148}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SM_Wep_Goblin_Spear_01
   m_TagString: Spear
   m_Icon: {fileID: 0}
@@ -298,7 +298,7 @@ GameObject:
   - component: {fileID: 4538593035225831524}
   - component: {fileID: 5811926890030392457}
   - component: {fileID: 726623587560436502}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Collider Attach
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -358,7 +358,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2903363383228747221}
   - component: {fileID: 8419884481328072564}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: BoxCollider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -403,7 +403,7 @@ GameObject:
   m_Component:
   - component: {fileID: 40578409295312421}
   - component: {fileID: 2491463152883616626}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: BoxCollider (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -447,7 +447,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8076525486863322470}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Attach
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -479,7 +479,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7547346325260366025}
   - component: {fileID: 5944509557270041146}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: BoxCollider (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

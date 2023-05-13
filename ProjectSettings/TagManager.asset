@@ -18,6 +18,7 @@ TagManager:
   - Hand
   - Map
   - Spear
+  - Coin
   layers:
   - Default
   - TransparentFX
