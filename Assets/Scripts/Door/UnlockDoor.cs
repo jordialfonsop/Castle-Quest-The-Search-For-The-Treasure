@@ -1,0 +1,48 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.XR.Interaction.Toolkit;
+
+public class UnlockDoor : MonoBehaviour
+{
+
+    [SerializeField]
+    private GameObject cheaterText;
+
+    [SerializeField]
+    private GameObject block;
+
+    [SerializeField]
+    private BoxCollider boxCollider;
+
+    [SerializeField]
+    private AudioClip unlock;
+
+    private AudioSource audio;
+
+    // Start is called before the first frame update
+    void Start()
+    {
+
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+
+    }
+
+    void OnTriggerStay(Collider col)
+    {
+        if (col.gameObject.tag == "Key")
+        {
+            audio = GetComponent<AudioSource>();
+            audio.clip = unlock;
+            audio.Play();
+            block.SetActive(false);
+            boxCollider.enabled = true;
+            Destroy(col.gameObject);
+            cheaterText.SetActive(false);
+        }
+    }
+}
