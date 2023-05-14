@@ -1,8 +1,10 @@
+![BF3AB7BD-D35C-41DB-9939-E4F0623641EE](https://github.com/jordialfonsop/Castle-Quest-The-Search-For-The-Treasure/assets/72511288/2dd458de-01f9-45d2-9b92-28703722394c)
+
 # Inspiration
 We drew inspiration from the thrilling experience of escape rooms and puzzle games, as well as the charm of old-timey games with simple yet well-executed concepts. The idea of creating short games that are fun, refreshing, and capable of building small micro universes with great storytelling possibilities fascinated us.
 
 # What it does
-Castle Quest is an immersive virtual reality escape room game built using Unity and Oculus Quest. Players are transported into a virtual reality environment where they must solve puzzles, interact with objects, and uncover the treasure hidden within the castle. The game mechanics allow players to pick up, throw, break, and interact with various objects, enhancing the realism and engagement of the experience.
+Castle Quest is an immersive virtual reality escape room game built using Unity and Oculus Quest. Players are transported into a virtual reality environment where they must solve puzzles, interact with objects, and uncover the treasure hidden within the castle. The game mechanics allow players to pick up, throw, break, and interact with various objects, while the evolving music enhances the realism and engagement of the experience.
 
 # How we built it
 To bring our vision to life, we utilized the Unity engine as our primary development platform, taking advantage of its extensive tools and resources. One crucial component we incorporated into our development process was the XR Interaction Toolkit, which provided us with the necessary framework for implementing VR interactions seamlessly. This toolkit allowed us to create immersive and realistic interactions between players and the virtual environment.
@@ -32,4 +34,7 @@ We delved into the realm of VR game development, acquiring knowledge on implemen
 # What's next for Castle Quest
 Looking ahead, we have exciting plans for Castle Quest. We aim to expand the game by adding more levels, puzzles, and interactive elements, providing players with a longer and more challenging experience. Additionally, we are exploring the possibility of integrating multiplayer features, allowing players to embark on the quest together, collaborating to solve puzzles and uncover the treasure. We are committed to refining and enhancing Castle Quest based on user feedback and continuously pushing the boundaries of immersive VR gaming experiences.
 
-"Maybe even a Battle Royale mode, a new DLC and loot box mechanics with competitive skill based matchmaking." - Our Marketing Executive Mannager and producer. 
+# Controls
+- Use the left and right grab on the controllers to grab and drop objects
+- Use the left joystick to move around
+- Use the right joystick to teleport using an arch
