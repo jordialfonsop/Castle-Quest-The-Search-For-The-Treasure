@@ -1,58 +1,35 @@
-# XR Interaction Toolkit Examples - Version 2.3.0
+# Inspiration
+We drew inspiration from the thrilling experience of escape rooms and puzzle games, as well as the charm of old-timey games with simple yet well-executed concepts. The idea of creating short games that are fun, refreshing, and capable of building small micro universes with great storytelling possibilities fascinated us.
 
-## Introduction
+# What it does
+Castle Quest is an immersive virtual reality escape room game built using Unity and Oculus Quest. Players are transported into a virtual reality environment where they must solve puzzles, interact with objects, and uncover the treasure hidden within the castle. The game mechanics allow players to pick up, throw, break, and interact with various objects, enhancing the realism and engagement of the experience.
 
-This project provides examples that use Unity's [XR Interaction Toolkit](https://docs.unity3d.com/Manual/com.unity.xr.interaction.toolkit.html) (XRI) to demonstrate its functionality with example assets and behaviors.
-The intention of this project is to provide a means for getting started with the features in the XR Interaction Toolkit package.
+# How we built it
+To bring our vision to life, we utilized the Unity engine as our primary development platform, taking advantage of its extensive tools and resources. One crucial component we incorporated into our development process was the XR Interaction Toolkit, which provided us with the necessary framework for implementing VR interactions seamlessly. This toolkit allowed us to create immersive and realistic interactions between players and the virtual environment.
 
-> Note: If you are looking for the original XRI Examples project, that has been archived into two separate branches [Classic 1.0](https://github.com/Unity-Technologies/XR-Interaction-Toolkit-Examples/tree/1.0/classic) and [Classic 2.2](https://github.com/Unity-Technologies/XR-Interaction-Toolkit-Examples/tree/classic/2.2). Both of these branches still have both the `AR` and `VR` projects available.
+In addition to Unity and the XR Interaction Toolkit, we leveraged other essential tools to enhance our development workflow. GitHub served as our version control system, facilitating collaboration and ensuring the integrity of our codebase throughout the project. By utilizing GitHub, we were able to streamline teamwork, manage changes efficiently, and maintain a consistent development process.
 
-## Getting started
+To ensure the highest level of immersion and playability, we crafted the game using two sets of Oculus Quest VR glasses for playtesting purposes. This approach allowed us to iterate and refine the experience based on real user feedback, ensuring a seamless and captivating gameplay experience.
 
-### Requirements
-The current version of the XRI Examples is compatible with the following versions of the Unity Editor:
+Underlying our development efforts was our expertise in C#, the programming language used to implement the game mechanics and interactivity. Through our proficiency in C#, we were able to code a wide range of functionalities, including object manipulation, puzzle-solving mechanics, and immersive interactions, elevating the overall gameplay experience.
 
-* 2020.3 and later
+# Our team
+We took a semi-professional approach to game development, with each member specializing in a particular aspect of the game. We had experts in level design, storytelling, audio and sound design, and coding, allowing us to tap into our individual strengths while collaborating closely to overcome obstacles and combine our abilities. This collaborative synergy within our team fostered the creation of a highly engaging and polished game. That also extended to us deciding to keep things simple and reduce the level of content for the sake of a better overall delivered experience.
 
-### Downloading the project
+# Challenges we ran into
+Our journey was not without its fair share of challenges. We encountered technical hurdles and faced quirky bugs that resulted in unexpected and comical situations. From coins falling off the map to inadvertently creating a magical flying broom due to colliding hitboxes, we navigated through these obstacles with a lighthearted spirit.
 
-1. Clone or download this repository to a workspace on your drive
-    1. Click the **⤓ Code** button on this page to get the URL to clone with Git or click **Download ZIP** to get a copy of this repository that you can extract
-1. Open a project in Unity
-    1. Download, install, and run [Unity Hub](https://unity3d.com/get-unity/download)
-    1. In the **Installs** tab, select **Locate** or **Add** to find or install Unity 2020.3 LTS or later. Include the **Windows Build Support (IL2CPP)** module if building for PC, and the **Android Build Support** if building for Android (for example, Meta Quest).
-    1. In the **Projects** tab, click **Add**
-    1. Browse to folder where you downloaded a copy of this repository and click **Select Folder**
-    1. Verify the project has been added as **XR-Interaction-Toolkit-Examples**, and click on it to open the project
+However, our team's perseverance and problem-solving skills allowed us to overcome these challenges, enhancing our overall game development expertise. By maintaining a positive attitude and utilizing our collective knowledge, we transformed hurdles into opportunities for growth and improvement.
 
-## General setup
+# Accomplishments that we're proud of
+We are proud to have created a captivating virtual reality escape room game that brings joy, excitement, and storytelling possibilities to players. Our game successfully immerses players in a rich and detailed environment, allowing them to engage with objects and solve puzzles in a realistic and interactive manner. The collaborative effort of our specialized team resulted in a highly polished and engaging game that we take great pride in.
 
-The main example scene is located at `Assets/XRI_Examples/Scenes/XRI_Examples_Main`. This example scene is laid out as a ring with different stations along it. The first examples you will encounter are the simplest use-cases of XRI features. Behind each example is a doorway leading to advanced uses of each feature.
+# What we learned
+Throughout the development of Castle Quest, we embarked on a journey of learning and growth. Leveraging Unity's VR capabilities, we built our application, immersing players in a virtual reality environment. Using C#, we coded the game mechanics, allowing players to interact with objects by picking them up, throwing them, breaking them, and performing various interactions.
 
-Use the simple examples when you need objects you can copy-and-paste, while leveraging the advanced examples when needing to achieve complex outcomes.
+We delved into the realm of VR game development, acquiring knowledge on implementing basic concepts specific to virtual reality. Techniques such as level design and storytelling were put into practice within the constraints of our development timeline. This learning experience enabled us to broaden our skill set and gain a deeper understanding of creating immersive gaming experiences.
 
-The **XR Origin** is located within the **Complete Set Up** prefab. This prefab contains everything needed for a fully functional user interaction with XRI. This includes the components needed for general input, interaction, and UI interaction.
+# What's next for Castle Quest
+Looking ahead, we have exciting plans for Castle Quest. We aim to expand the game by adding more levels, puzzles, and interactive elements, providing players with a longer and more challenging experience. Additionally, we are exploring the possibility of integrating multiplayer features, allowing players to embark on the quest together, collaborating to solve puzzles and uncover the treasure. We are committed to refining and enhancing Castle Quest based on user feedback and continuously pushing the boundaries of immersive VR gaming experiences.
 
-Scripts, assets, and prefabs related to each feature or use case are located in the associated folder in `Assets/XRI_Examples`.
-
-The following stations are available in the XRI Examples:
-
-* [Station 1: Locomotion Setup](Documentation/LocomotionSetup.md) - Overview of the built-in locomotion options and how to configure them.
-* [Station 2: Grab Interactables](Documentation/GrabInteractables.md) - Basic object manipulation.
-* [Station 3: Activate Interactables](Documentation/ActivateInteractables.md) - Manipulation of objects that can be triggered by the user.
-* [Station 4: Socket Interactors](Documentation/SocketInteractors.md) - Manipulation of objects that can snap to specific positions.
-* [Station 5: 2D UI](Documentation/UI-2D.md) - Creation and interaction with [world space](https://docs.unity3d.com/Packages/com.unity.ugui@1.0/manual/UICanvas.html#world-space) 2D UI.
-* [Station 6: 3D UI](Documentation/UI-3D.md) - Creation and interaction with 3D constrained controls.
-* [Station 7: Physics Interactables](Documentation/PhysicsInteractables.md) - Best practices for combining physics and XR input.
-
-For a list of new features and deprecations, see [XRI Examples Changelog](CHANGELOG.md).
-
-For an overview of how the [Input System](https://docs.unity3d.com/Manual/com.unity.inputsystem.html) is used in this example, see [Input](Documentation/Input.md).
-
-## Sharing feedback
-
-The [XR Interaction Toolkit and Input forum](https://forum.unity.com/forums/xr-interaction-toolkit-and-input.519/) is the best place to open discussions and ask questions. Please use the [public roadmap](https://portal.productboard.com/brs5gbymuktquzeomnargn2u) to submit feature requests. If you encounter a bug, please use the Unity Bug Reporter in the Unity Editor, accessible via **Help &gt; Report a Bug**. Include “XR Interaction Toolkit” in the title to help our team triage things appropriately!
-
-## Contributions and pull requests
-
-We are not accepting pull requests at this time.
+"Maybe even a Battle Royale mode, a new DLC and loot box mechanics with competitive skill based matchmaking." - Our Marketing Executive Mannager and producer. 
