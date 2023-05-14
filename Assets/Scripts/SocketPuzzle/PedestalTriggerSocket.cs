@@ -36,7 +36,7 @@ public class PedestalTriggerSocket : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        Debug.Log("Bruh");
+
         pedestal.SetIsActive(false);
         socketPuzzle.CheckStatus();
         this.gameObject.SetActive(false);

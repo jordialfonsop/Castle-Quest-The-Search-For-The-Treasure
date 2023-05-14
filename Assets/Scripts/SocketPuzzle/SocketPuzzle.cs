@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SocketPuzzle : MonoBehaviour
 {
-    [SerializeField] private GameObject tula;
+    [SerializeField] private GameObject redShield;
     [SerializeField] private Pedestal pedestal1;
     [SerializeField] private Pedestal pedestal2;
     [SerializeField] private Pedestal pedestal3;
@@ -23,17 +23,12 @@ public class SocketPuzzle : MonoBehaviour
 
     public void CheckStatus()
     {
-        pedestal1.SetWinTriggerState(pedestal1.GetIsActive());
-        pedestal2.SetWinTriggerState(pedestal2.GetIsActive());
-        pedestal3.SetWinTriggerState(pedestal3.GetIsActive());
-        pedestal4.SetWinTriggerState(pedestal4.GetIsActive());
+
         if (pedestal1.GetIsActive() && pedestal2.GetIsActive() && pedestal3.GetIsActive() && pedestal4.GetIsActive())
         {
-            tula.SetActive(true);
+            redShield.GetComponent<Animator>().enabled = true;
+            redShield.GetComponent<AudioSource>().Play();
         }
-        else
-        {
-            tula.SetActive(false);
-        }
+        
     }
 }
