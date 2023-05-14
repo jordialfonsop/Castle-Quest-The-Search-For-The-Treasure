@@ -53,7 +53,7 @@ public class Numpad : MonoBehaviour
         SetUnlocked(true);
         audiosource.clip = unlock;
         audiosource.Play();
-        door.GetComponent<BoxCollider>().enabled = true;   
+        door.GetComponent<Animator>().enabled = true;   
     }
 
     public void KeepLocked()
