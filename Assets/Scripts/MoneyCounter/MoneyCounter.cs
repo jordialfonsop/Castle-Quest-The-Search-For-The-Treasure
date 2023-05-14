@@ -8,6 +8,7 @@ public class MoneyCounter : MonoBehaviour
     private int counter = 0;
     [SerializeField] private int triggerCounter = 9999999;
     [SerializeField] private GameObject rock;
+    [SerializeField] private GameObject sceneChanger;
     // Start is called before the first frame update
     void Start()
     {
@@ -31,6 +32,7 @@ public class MoneyCounter : MonoBehaviour
         {
             rock.GetComponent<Animator>().enabled = true;
             rock.GetComponent<AudioSource>().Play();
+            sceneChanger.SetActive(true);
         }
     }
 }
