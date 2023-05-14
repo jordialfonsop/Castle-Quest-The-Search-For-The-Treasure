@@ -22,6 +22,9 @@ public class Numpad : MonoBehaviour
     GameObject door;
 
     [SerializeField]
+    GameObject sceneChanger;
+
+    [SerializeField]
     private TMP_Text CurrentPasscode;
 
     private bool unlocked = false;
@@ -53,7 +56,8 @@ public class Numpad : MonoBehaviour
         SetUnlocked(true);
         audiosource.clip = unlock;
         audiosource.Play();
-        door.GetComponent<BoxCollider>().enabled = true;   
+        door.GetComponent<Animator>().enabled = true; 
+        sceneChanger.SetActive(true);
     }
 
     public void KeepLocked()
