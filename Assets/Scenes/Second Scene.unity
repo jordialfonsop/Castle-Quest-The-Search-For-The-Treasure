@@ -325,7 +325,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 277842496}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &38994367
 AudioSource:
@@ -1341,7 +1341,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1450835859}
   - {fileID: 381206935}
   - {fileID: 38994366}
   - {fileID: 2079024214}
@@ -1349,6 +1348,7 @@ Transform:
   - {fileID: 2080650316}
   - {fileID: 1036178759}
   - {fileID: 927578817}
+  - {fileID: 1450835859}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2134,7 +2134,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 277842496}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &397033734 stripped
 AudioSource:
@@ -5715,7 +5715,7 @@ Transform:
   - {fileID: 6738439}
   - {fileID: 599769748}
   m_Father: {fileID: 277842496}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &950610029
 PrefabInstance:
@@ -6000,7 +6000,7 @@ Transform:
   - {fileID: 1306055775}
   - {fileID: 441802622}
   m_Father: {fileID: 277842496}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1055549630
 PrefabInstance:
@@ -9923,7 +9923,7 @@ PrefabInstance:
     - target: {fileID: 6598815579406187037, guid: 18ddb545287c546e19cc77dc9fbb2189,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 18ddb545287c546e19cc77dc9fbb2189, type: 3}
@@ -12466,7 +12466,7 @@ Transform:
   - {fileID: 1722953295}
   - {fileID: 209248246}
   m_Father: {fileID: 277842496}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2065310200
 PrefabInstance:
@@ -12665,7 +12665,7 @@ Transform:
   - {fileID: 463186306}
   - {fileID: 638456838}
   m_Father: {fileID: 277842496}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2080650315
 GameObject:
@@ -12745,7 +12745,7 @@ Transform:
   - {fileID: 2072745309}
   - {fileID: 1001559761}
   m_Father: {fileID: 277842496}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2083418275
 PrefabInstance:
