@@ -2360,6 +2360,11 @@ PrefabInstance:
       propertyPath: scene
       value: Initial Scene
       objectReference: {fileID: 0}
+    - target: {fileID: 8450115326984010774, guid: cc9119309dc1f134383844fa5afb7ad4,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8450115326984010775, guid: cc9119309dc1f134383844fa5afb7ad4,
         type: 3}
       propertyPath: m_RootOrder

@@ -2254,13 +2254,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 134696823}
-  m_LocalRotation: {x: -0, y: 0.22032744, z: -0, w: 0.975426}
-  m_LocalPosition: {x: 14.101668, y: -74.948006, z: 14.913941}
-  m_LocalScale: {x: 38.437508, y: 12.730999, z: 23.145254}
+  m_LocalRotation: {x: -0, y: 0.9916339, z: -0, w: 0.12908255}
+  m_LocalPosition: {x: -1.5283631, y: -1.7184049, z: -5.608461}
+  m_LocalScale: {x: 8.563073, y: 2.8362017, z: 5.1562786}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1442811766}
-  m_RootOrder: 2
+  m_Father: {fileID: 322365576}
+  m_RootOrder: 87
   m_LocalEulerAnglesHint: {x: 0, y: 25.457, z: 0}
 --- !u!114 &134696826
 MonoBehaviour:
@@ -5713,6 +5713,7 @@ Transform:
   - {fileID: 595149713}
   - {fileID: 1664088137}
   - {fileID: 866909043}
+  - {fileID: 134696825}
   m_Father: {fileID: 1563256845}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -18240,50 +18241,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2064958990}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &896377730
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 896377732}
-  - component: {fileID: 896377731}
-  m_Layer: 0
-  m_Name: QuitApp
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &896377731
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 896377730}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6df81851d902fab44891fa097fad7c00, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!4 &896377732
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 896377730}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -54.087578, y: -0.44435498, z: 13.121186}
-  m_LocalScale: {x: 2.5000002, y: 2.4999998, z: 2.5000002}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1442811766}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &897380210
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18295,6 +18252,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SceneChanger
+      objectReference: {fileID: 0}
+    - target: {fileID: 8450115326984010772, guid: cc9119309dc1f134383844fa5afb7ad4,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8450115326984010773, guid: cc9119309dc1f134383844fa5afb7ad4,
+        type: 3}
+      propertyPath: scene
+      value: Main Menu
+      objectReference: {fileID: 0}
+    - target: {fileID: 8450115326984010774, guid: cc9119309dc1f134383844fa5afb7ad4,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8450115326984010775, guid: cc9119309dc1f134383844fa5afb7ad4,
         type: 3}
@@ -18368,6 +18340,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cc9119309dc1f134383844fa5afb7ad4, type: 3}
+--- !u!114 &897380211 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8450115326984010773, guid: cc9119309dc1f134383844fa5afb7ad4,
+    type: 3}
+  m_PrefabInstance: {fileID: 897380210}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 073c3e8c63bf22d43aad440cf8da4312, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &898248236
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27695,9 +27679,9 @@ MonoBehaviour:
   m_SelectExited:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 896377731}
-        m_TargetAssemblyTypeName: QuitApp, Assembly-CSharp
-        m_MethodName: Quit
+      - m_Target: {fileID: 897380211}
+        m_TargetAssemblyTypeName: SceneChanger, Assembly-CSharp
+        m_MethodName: ChangeScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
