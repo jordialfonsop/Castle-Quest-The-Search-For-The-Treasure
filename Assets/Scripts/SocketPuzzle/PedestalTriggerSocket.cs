@@ -28,6 +28,7 @@ public class PedestalTriggerSocket : MonoBehaviour
         }
         else
         {
+            Debug.Log("Huh");
             pedestal.SetIsActive(false);
         }
 

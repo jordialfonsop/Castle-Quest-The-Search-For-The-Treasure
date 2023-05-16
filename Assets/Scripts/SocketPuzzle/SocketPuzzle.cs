@@ -9,6 +9,7 @@ public class SocketPuzzle : MonoBehaviour
     [SerializeField] private Pedestal pedestal2;
     [SerializeField] private Pedestal pedestal3;
     [SerializeField] private Pedestal pedestal4;
+    [SerializeField] private BoxCollider moneyCounter;
     // Start is called before the first frame update
     void Start()
     {
@@ -28,6 +29,7 @@ public class SocketPuzzle : MonoBehaviour
         {
             redShield.GetComponent<Animator>().enabled = true;
             redShield.GetComponent<AudioSource>().Play();
+            moneyCounter.enabled = true;
         }
         
     }

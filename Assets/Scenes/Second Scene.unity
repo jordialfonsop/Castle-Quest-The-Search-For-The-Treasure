@@ -10888,9 +10888,19 @@ PrefabInstance:
       objectReference: {fileID: 1877744006}
     - target: {fileID: 1918425862192424937, guid: 4b7689e0b1eff66488a9f87def3a0845,
         type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1918425862192424937, guid: 4b7689e0b1eff66488a9f87def3a0845,
+        type: 3}
       propertyPath: sceneChanger
       value: 
       objectReference: {fileID: 1430151724}
+    - target: {fileID: 1918425862192424938, guid: 4b7689e0b1eff66488a9f87def3a0845,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1918425862809063132, guid: 4b7689e0b1eff66488a9f87def3a0845,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -12967,6 +12977,12 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!65 &2094158234 stripped
+BoxCollider:
+  m_CorrespondingSourceObject: {fileID: 1918425862192424938, guid: 4b7689e0b1eff66488a9f87def3a0845,
+    type: 3}
+  m_PrefabInstance: {fileID: 1710122800}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2129324678
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13198,6 +13214,11 @@ PrefabInstance:
       propertyPath: redShield
       value: 
       objectReference: {fileID: 1877005684}
+    - target: {fileID: 1007740143021504395, guid: 486445d93e63f5e479ec8cb53280cbc2,
+        type: 3}
+      propertyPath: moneyCounter
+      value: 
+      objectReference: {fileID: 2094158234}
     - target: {fileID: 1007740143482342456, guid: 486445d93e63f5e479ec8cb53280cbc2,
         type: 3}
       propertyPath: m_Size.x
