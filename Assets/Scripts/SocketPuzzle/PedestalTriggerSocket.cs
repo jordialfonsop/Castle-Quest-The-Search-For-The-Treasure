@@ -22,24 +22,19 @@ public class PedestalTriggerSocket : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
 
-        if (other.gameObject.tag == this.gameObject.tag)
-        {
-            pedestal.SetIsActive(true);
-        }
-        else
-        {
-            Debug.Log("Huh");
-            pedestal.SetIsActive(false);
-        }
+            if (other.gameObject.tag == this.gameObject.tag)
+            {
+                pedestal.SetIsActive(true);
+                socketPuzzle.CheckStatus();
+                this.gameObject.SetActive(false);
+            }
+            else
+            {
+                pedestal.SetIsActive(false);
+                socketPuzzle.CheckStatus();
+                this.gameObject.SetActive(false);
+            }
 
-        socketPuzzle.CheckStatus();
     }
 
-    private void OnTriggerExit(Collider other)
-    {
-
-        pedestal.SetIsActive(false);
-        socketPuzzle.CheckStatus();
-        this.gameObject.SetActive(false);
-    }
 }
