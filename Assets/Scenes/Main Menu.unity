@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.000017034077, g: 0.000000025772884, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.000017034134, g: 0.000000025767864, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2363,7 +2363,7 @@ PrefabInstance:
     - target: {fileID: 8450115326984010773, guid: cc9119309dc1f134383844fa5afb7ad4,
         type: 3}
       propertyPath: scene
-      value: Initial Scene
+      value: Initial Scene Quest 2
       objectReference: {fileID: 0}
     - target: {fileID: 8450115326984010774, guid: cc9119309dc1f134383844fa5afb7ad4,
         type: 3}
